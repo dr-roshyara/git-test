@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "\"This is a test directory to learn git and node. \"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm lite server",		  
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Krishna sharma",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mathematikboy/git-test.git"
+  },
+  "keywords": [
+    "Git",
+    "testing"
+  ],
+  "bugs": {
+    "url": "https://github.com/mathematikboy/git-test/issues"
+  },
+  "homepage": "https://github.com/mathematikboy/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
